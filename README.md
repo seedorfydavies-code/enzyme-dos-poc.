@@ -174,7 +174,7 @@ enzyme-dos-poc/
 |---|---|
 | Severity | Medium |
 | Impact | Smart contract unable to operate |
-| Attack vector | Misconfiguration accepted by contract |
+| Attack vector | Missing input validation allowing invalid state initialization |
 | Affected users | Asset manager initialized with duration=0 |
 | Funds at risk | Indirect — operations blocked, no direct theft |
 
